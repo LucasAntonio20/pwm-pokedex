@@ -21,5 +21,33 @@
         android:id="@+id/navigation_notifications"
         android:name="com.unicap.pokedex.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications"  >
+        <action
+            android:id="@+id/action_navigation_about_lucas"
+            app:destination="@id/about_lucas" />
+        <action
+            android:id="@+id/action_navigation_about_danilo"
+            app:destination="@id/about_danilo" />
+        <action
+            android:id="@+id/action_navigation_about_giovanni"
+            app:destination="@id/about_giovanni" />
+
+    </fragment>
+
+    <activity
+        android:id="@+id/about_lucas"
+        android:name="com.unicap.pokedex.about_lucas"
+        android:label="activity_about_lucas"
+        tools:layout="@layout/activity_about_lucas" />
+    <activity
+        android:id="@+id/about_danilo"
+        android:name="com.unicap.pokedex.about_danilo"
+        android:label="activity_about_danilo"
+        tools:layout="@layout/activity_about_danilo" />
+    <activity
+        android:id="@+id/about_giovanni"
+        android:name="com.unicap.pokedex.about_giovanni"
+        android:label="activity_about_giovanni"
+        tools:layout="@layout/activity_about_giovanni" />
+
 </navigation>

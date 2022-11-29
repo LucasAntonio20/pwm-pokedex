@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">pokedex</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name" translatable="false">pokedex</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="lucas_imageView" translatable="false">Lucas</string>
+    <string name="danilo_imageView" translatable="false">Danilo</string>
+    <string name="giovanni_imageView" translatable="false">Giovanni</string>
+    <string name="title_activity_about_lucas">about_lucas</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 </resources>
