@@ -7,6 +7,12 @@
     <string name="danilo_imageView" translatable="false">Danilo</string>
     <string name="giovanni_imageView" translatable="false">Giovanni</string>
     <string name="title_activity_about_lucas">about_lucas</string>
+    <string name="aboutlucas">Estudante do 5º periodo de ciencias da computação
+        da universidade catolica de pernambuco,
+    possuo 19 anos, e faz 3 anos que conheci o mundo da programação, amo jogar alguns jogos nas horas vagas.
+    </string>
+    <string name="fa_lucas">CURSANDO - CIÊNCIA DA COMPUTAÇÃO - 5º
+        COMPLETO - ENSINO MÉDIO</string>
     <!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>
     <string name="previous">Previous</string>
