@@ -13,7 +13,12 @@
     </string>
     <string name="fa_lucas">CURSANDO - CIÊNCIA DA COMPUTAÇÃO - 5º
         COMPLETO - ENSINO MÉDIO</string>
-    <!-- Strings used for fragments for navigation -->
+    <string name="about_giovanni">Atualmente estudando ciência da computação na Unicap e estagiando na área de desenvolvimetno web
+        com springboot e, infelizmente, JSP :)
+    </string>
+    <string name="description">
+        Um pouco sobre mim
+    </string><!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 </resources>
