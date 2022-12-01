@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="#BEC8FB"
     tools:context=".about_giovanni">
 
     <Button
@@ -15,6 +15,66 @@
         android:layout_marginTop="16dp"
         android:background="#00FFFFFF"
         app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="342dp"
+        android:layout_height="92dp"
+
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="259dp"
+        android:fontFamily="monospace"
+        android:text="@string/about_giovanni"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="132dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pokemon007" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="140dp"
+        android:fontFamily="monospace"
+        android:text="@string/description"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="131dp"
+        android:fontFamily="monospace"
+        android:text="Giovanni de Aguiar"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
