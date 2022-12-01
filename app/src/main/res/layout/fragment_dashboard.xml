@@ -27,6 +27,7 @@
         android:layout_marginTop="30dp"
         android:background="@color/white"
         android:text="@string/pokemon001"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/pokemon001Img"
         app:layout_constraintTop_toTopOf="parent" />
@@ -70,6 +71,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/pokemon002"
+        android:textColor="@color/black"
         android:src="@drawable/pokemon002"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pokemon001Img" />
@@ -82,6 +84,7 @@
         android:layout_marginTop="158dp"
         android:background="@color/white"
         android:text="@string/pokemon002"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/pokemon002Img"
         app:layout_constraintTop_toTopOf="parent" />
@@ -136,7 +139,8 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="292dp"
         android:background="@color/white"
-        android:text="@string/pokemon002"
+        android:text="@string/pokemon003"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/pokemon003Img"
         app:layout_constraintTop_toTopOf="parent" />
@@ -192,10 +196,11 @@
         android:layout_marginTop="424dp"
         android:background="@color/white"
         android:text="@string/pokemon004"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/pokemon004Img"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
     <TextView
         android:id="@+id/pokemon004Type2"
         android:layout_width="66dp"
