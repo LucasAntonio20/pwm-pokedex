@@ -18,7 +18,16 @@
     </string>
     <string name="description">
         Um pouco sobre mim
-    </string><!-- Strings used for fragments for navigation -->
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    </string>
+
+    <!-- Strings user for pokemon name -->
+    <string name="pokemon001">Bulbasaur</string>
+    <string name="pokemon002">Ivysaur</string>
+    <string name="pokemon003">Venusaur</string>
+    <string name="pokemon004">Charmander</string>
+
+    <!-- Strings used for types names -->
+    <string name="grass">GRASS</string>
+    <string name="poison">POISON</string>
+    <string name="fire">FIRE</string>
 </resources>

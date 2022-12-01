@@ -6,74 +6,209 @@
     android:layout_height="match_parent"
     tools:context=".ui.dashboard.DashboardFragment">
 
+    <!-- Pokemon 001 -->
+
     <ImageView
-        android:id="@+id/pokemonImg"
-        android:layout_width="295dp"
-        android:layout_height="383dp"
-        android:layout_marginStart="58dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="241dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/pokemon001Img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/pokemon001"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pokemonName"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pokemon001" />
 
     <TextView
-        android:id="@+id/pokemonName"
-        android:layout_width="wrap_content"
+        android:id="@+id/pokemon001Name"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="174dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
         android:background="@color/white"
-        android:text="Bulbasaur"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/pokemon001"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/pokemon001Img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/pokemonType1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="266dp"
-        android:layout_marginBottom="188dp"
-        android:background="@color/green"
-        android:text="Grass"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/pokemon001Type1"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/grass"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/grass"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon001Img"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon001Type2" />
 
     <TextView
-        android:id="@+id/pokemonType2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginEnd="253dp"
-        android:layout_marginBottom="188dp"
-        android:background="@color/purple_500"
-        android:text="Poison"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/pokemon001Type2"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/poison"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/poison"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon001Img"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon001Name" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="58dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="221dp"
-        android:layout_marginEnd="132dp"
-        android:text="next"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
+    <!-- Pokemon 002 -->
+
+    <ImageView
+        android:id="@+id/pokemon002Img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/pokemon002"
+        android:src="@drawable/pokemon002"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="587dp" />
+        app:layout_constraintTop_toBottomOf="@+id/pokemon001Img" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="58dp"
-        android:layout_height="45dp"
-        android:text="previous"
-        android:visibility="invisible"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="587dp" />
+    <TextView
+        android:id="@+id/Pokemon002Name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="158dp"
+        android:background="@color/white"
+        android:text="@string/pokemon002"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/pokemon002Img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pokemon002Type1"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/grass"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/grass"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon002Img"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon002Type2" />
+
+    <TextView
+        android:id="@+id/pokemon002Type2"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/poison"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/poison"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon002Img"
+        app:layout_constraintTop_toBottomOf="@+id/Pokemon002Name" />
+
+    <!-- Pokemon 003 -->
+
+    <ImageView
+        android:id="@+id/pokemon003Img"
+        android:contentDescription="@string/pokemon003"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pokemon003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon002Img" />
+
+    <TextView
+        android:id="@+id/Pokemon003Name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="292dp"
+        android:background="@color/white"
+        android:text="@string/pokemon002"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/pokemon003Img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pokemon003Type1"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/grass"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/grass"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon003Img"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon003Type2" />
+
+    <TextView
+        android:id="@+id/pokemon003Type2"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/poison"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/poison"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon003Img"
+        app:layout_constraintTop_toBottomOf="@+id/Pokemon003Name" />
+
+    <!-- Pokemon 003 -->
+
+    <ImageView
+        android:id="@+id/pokemon004Img"
+        android:contentDescription="@string/pokemon004"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pokemon004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon003Img" />
+
+    <TextView
+        android:id="@+id/Pokemon004Name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="424dp"
+        android:background="@color/white"
+        android:text="@string/pokemon004"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/pokemon004Img"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <TextView
+        android:id="@+id/pokemon004Type2"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_text_type"
+        android:backgroundTint="@color/fire"
+        android:fontFamily="@font/fira_sans"
+        android:text="@string/fire"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/pokemon004Img"
+        app:layout_constraintTop_toBottomOf="@+id/Pokemon004Name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

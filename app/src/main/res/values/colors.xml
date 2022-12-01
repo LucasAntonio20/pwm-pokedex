@@ -12,6 +12,13 @@
     <color name="blue">#294369</color>
 
     <color name="blue_light">#79c9f9</color>
-    <color name="green">#7fad71</color>
     <color name="white_title">#efe4d3</color>
+
+    <color name="green">#7fad71</color>
+
+    <!--color of types-->
+    <color name="grass">#7c5</color>
+    <color name="poison">#a59</color>
+    <color name="fire">#f42</color>
+
 </resources>
